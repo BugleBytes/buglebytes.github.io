@@ -381,7 +381,7 @@ textarea.fs-input {
     cursor: pointer;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
     .highlighted-content-cards,
     #recent-games-section {
         grid-template-columns: 1fr;

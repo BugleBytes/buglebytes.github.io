@@ -20,8 +20,13 @@ body {
     font-family: Inter;
     font-size: 16pt;
     background-color: #f4f5f5;
+    margin: 0;
+}
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 p{
@@ -109,21 +114,27 @@ main{
     font-size: 0.95rem;
 }
 
-header{
+header {
     background-color: #F6F6F6;
-    padding: 30px 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
-footer{
-    background-color: black;
-    padding: 50px 50px 50px 50px;
+header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 30px 20px;
+}
+
+footer {
+    background-color: black;
     color: white;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
 }
 
 .footer-link{
@@ -369,7 +380,7 @@ textarea.fs-input {
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .highlighted-content-cards,
     #recent-games-section {
         grid-template-columns: 1fr;

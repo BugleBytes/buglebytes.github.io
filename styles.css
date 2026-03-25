@@ -477,7 +477,12 @@ textarea.fs-input {
         font-size: 18px;
     }
 
-    .container {
-        padding: 0 5px;
+    main{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .post-image {
+        height: 250px;
     }
 }

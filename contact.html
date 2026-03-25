@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<section class="top-brand-line">
+  <div id="brand-color-1"></div>
+  <div id="brand-color-2"></div>
+  <div id="brand-color-3"></div>
+  <div id="brand-color-4"></div>
+  <div id="brand-color-5"></div>
+</section>
+<header>
+  <div id="header-logo">
+    <a href="index.html">
+      <img src="assets/olympic-hub-logo-01.png" alt="Home">
+    </a>
+  </div>
+
+  <button class="menu-toggle">☰</button>
+
+  <nav class="main-navigation">
+    <a href="index.html">Home</a>
+    <a href="history.html">History</a>
+    <a href="sports.html">Sports</a>
+    <a href="host-cities.html">Host Cities</a>
+  </nav>
+</header>
+<main>
+  <section class="page-title-area">
+    <h1 class="page-title">Contact</h1>
+  </section>
+  <section class="post-content">
+    <div class="contact-container">
+      <p>We'd love to hear new ideas, partnership suggestions and feedback! Write today, and we'll get back to you faster that Usian Bolt's famous 100-meter run.</p>
+      <form class="contact-form"
+              action="https://formspree.io/f/xeepjyjz"
+              class="fs-form"
+              target="_top"
+              method="POST"
+      >
+        <div class="fs-field">
+          <label class="fs-label" for="name">Name</label>
+          <input class="fs-input" id="name" name="name" required />
+        </div>
+        <div class="fs-field">
+          <label class="fs-label" for="email">Email</label>
+          <input class="fs-input" id="email" name="email" required />
+        </div>
+        <div class="fs-field">
+          <label class="fs-label" for="message">Message</label>
+          <textarea class="fs-input" id="message" name="message" required></textarea>
+        </div>
+        <div class="fs-button-group">
+          <button class="fs-button" type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <hr>
+  <h3>Recent Games</h3>
+  <section id="recent-games-section">
+    <div class="recent-games-card">
+      <h3>🇮🇹 Milano Cortina 2026</h3>
+      <p>Italy hosted the Winter Olympics across iconic alpine venues.</p>
+    </div>
+    <div class="recent-games-card">
+      <h3>🇫🇷 Paris 2024</h3>
+      <p>A modern Summer Games blending tradition, innovation, and global unity.</p>
+    </div>
+    <div class="recent-games-card">
+      <h3>🇨🇳 Beijing 2022</h3>
+      <p>A groundbreaking Winter Olympics featuring advanced technology and venues.</p>
+    </div>
+  </section>
+</main>
+<footer>
+  <div id="footer-logo">
+    <img src="assets/olympic-hub-logo-02.png" alt="Logo">
+  </div>
+  <div></div>
+  <nav>
+    <a class="footer-link" href="about.html">About</a>
+    <a class="footer-link" href="contact.html">Contact</a>
+  </nav>
+  </div>
+</footer><script>
+  const toggle = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('.main-navigation');
+
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<section class="top-brand-line">
+    <div id="brand-color-1"></div>
+    <div id="brand-color-2"></div>
+    <div id="brand-color-3"></div>
+    <div id="brand-color-4"></div>
+    <div id="brand-color-5"></div>
+</section>
+<header>
+    <div id="header-logo">
+        <a href="index.html">
+            <img src="assets/olympic-hub-logo-01.png" alt="Home">
+        </a>
+    </div>
+
+    <button class="menu-toggle">☰</button>
+
+    <nav class="main-navigation">
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="sports.html">Sports</a>
+        <a href="host-cities.html">Host Cities</a>
+    </nav>
+</header>
+<main>
+    <img class="post-image" src="assets/post-image-01.webp" alt="Post image">
+    <section class="page-title-area">
+        <h1 class="post-title">Host Cities of the Olympic Games</h1>
+        <p class="page-meta">By Tobias Holm - March 23, 2026</p>
+    </section>
+    <hr>
+    <section class="post-content">
+        <p class="post-content-text-paragraph">The Olympic Games have been hosted by cities all around the world, each bringing its own culture, history, and identity to the global stage. Serving as an Olympic host is both an honor and a major responsibility, as cities must prepare to welcome thousands of athletes, officials, and spectators.</p>
+        <h2>A Global Tradition</h2>
+        <p class="post-content-text-paragraph">Since the revival of the modern Olympic Games in 1896, host cities have represented every inhabited continent. The first modern Games were held in Athens, Greece, paying tribute to the ancient origins of the Olympics. Over time, cities such as Paris, London, Tokyo, and Los Angeles have each hosted the Games, some of them more than once.</p>
+        <p class="post-content-text-paragraph">Hosting the Olympics allows a city to showcase itself to the world. It often leads to increased tourism, international recognition, and long-term investments in infrastructure. However, it also requires careful planning and significant financial resources.</p>
+        <h2>The Selection Process</h2>
+        <p class="post-content-text-paragraph">The process of choosing a host city is managed by the International Olympic Committee (IOC). Cities that wish to host the Games must submit detailed proposals outlining their plans for venues, transportation, accommodations, and sustainability.</p>
+        <p class="post-content-text-paragraph">In recent years, the selection process has evolved to become more flexible and collaborative. The IOC now works more closely with candidate cities to ensure that hosting the Games is both feasible and beneficial. This change reflects a growing awareness of the challenges and costs associated with hosting such a large event.</p>
+        <h2>Memorable Host Cities</h2>
+        <p class="post-content-text-paragraph">Certain Olympic host cities stand out for their impact on the Games and their lasting legacy. For example, the 2008 Summer Olympics in Beijing were known for their impressive opening ceremony and large-scale venues. London’s 2012 Games were widely praised for their organization and focus on sustainability, while Tokyo’s 2020 Olympics—held in 2021 due to the global pandemic—demonstrated resilience under extraordinary circumstances.</p>
+        <p class="post-content-text-paragraph">Each host city contributes something unique, whether it is architectural innovation, cultural celebration, or technological advancement. These elements help shape the identity of each Olympic Games.</p>
+        <h2>Challenges and Opportunities</h2>
+        <p class="post-content-text-paragraph">Hosting the Olympics presents both opportunities and challenges. On one hand, cities can benefit from improved infrastructure, new sports facilities, and global visibility. On the other hand, the high costs and tight timelines can put pressure on governments and local communities.</p>
+        <p class="post-content-text-paragraph">In response, recent Olympic planning has placed greater emphasis on sustainability and long-term use of venues. Many cities now aim to reuse existing facilities or design temporary structures to reduce costs and environmental impact.</p>
+        <h2>Looking Ahead</h2>
+        <p class="post-content-text-paragraph">As the Olympic Games continue to evolve, so too does the approach to selecting and preparing host cities. Future hosts are expected to prioritize sustainability, inclusivity, and community benefit.</p>
+        <p class="post-content-text-paragraph">Despite the challenges, the tradition of hosting the Olympic Games remains a powerful symbol of international cooperation. Each host city becomes part of Olympic history, contributing to a legacy that continues to inspire people around the world.</p>
+    </section>
+    <hr>
+    <h3>Recent Games</h3>
+    <section id="recent-games-section">
+        <div class="recent-games-card">
+            <h3>🇮🇹 Milano Cortina 2026</h3>
+            <p>Italy hosted the Winter Olympics across iconic alpine venues.</p>
+        </div>
+        <div class="recent-games-card">
+            <h3>🇫🇷 Paris 2024</h3>
+            <p>A modern Summer Games blending tradition, innovation, and global unity.</p>
+        </div>
+        <div class="recent-games-card">
+            <h3>🇨🇳 Beijing 2022</h3>
+            <p>A groundbreaking Winter Olympics featuring advanced technology and venues.</p>
+        </div>
+    </section>
+</main>
+<footer>
+    <div id="footer-logo">
+        <img src="assets/olympic-hub-logo-02.png" alt="Logo">
+    </div>
+    <div></div>
+    <nav>
+        <a class="footer-link" href="about.html">About</a>
+        <a class="footer-link" href="contact.html">Contact</a>
+    </nav>
+    </div>
+</footer>
+<script>
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.main-navigation');
+
+    toggle.addEventListener('click', () => {
+        nav.classList.toggle('active');
+    });
+</script>
+</body>
+</html>

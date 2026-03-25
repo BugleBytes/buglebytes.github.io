@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<section class="top-brand-line">
+    <div id="brand-color-1"></div>
+    <div id="brand-color-2"></div>
+    <div id="brand-color-3"></div>
+    <div id="brand-color-4"></div>
+    <div id="brand-color-5"></div>
+</section>
+<header>
+    <div id="header-logo">
+        <a href="index.html">
+            <img src="assets/olympic-hub-logo-01.png" alt="Home">
+        </a>
+    </div>
+
+    <button class="menu-toggle">☰</button>
+
+    <nav class="main-navigation">
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="sports.html">Sports</a>
+        <a href="host-cities.html">Host Cities</a>
+    </nav>
+</header>
+<main>
+    <img class="post-image" src="assets/post-image-02.webp" alt="Post image">
+    <section class="page-title-area">
+        <h1 class="post-title">The Olympic Sports</h1>
+        <p class="page-meta">By Tobias Holm - March 21, 2026</p>
+    </section>
+    <hr>
+    <section class="post-content">
+        <p class="post-content-text-paragraph">The Olympic Games feature a wide variety of sports that showcase athletic skill, physical endurance, and international competition. From traditional events rooted in ancient history to modern additions reflecting evolving interests, Olympic sports represent the diversity of global athletics.</p>
+        <h2>Categories of Olympic Sports</h2>
+        <p class="post-content-text-paragraph">Olympic sports are generally divided into two main categories: Summer and Winter sports.</p>
+        <h3>Summer Olympics</h3>
+        <p class="post-content-text-paragraph">The Summer Olympics include a broad range of sports, many of which date back to the ancient Games. These sports emphasize speed, strength, agility, and teamwork. Some of the most popular Summer Olympic sports include:
+        <ul>
+            <li>Athletics (track and field)</li>
+            <li>Swimming</li>
+            <li>Gymnastics</li>
+            <li>Cycling</li>
+            <li>Basketball</li>
+            <li>Football (soccer)</li>
+            <li>Tennis</li>
+            <li>Volleyball</li>
+        </ul>
+        </p>
+        <p class="post-content-text-paragraph">In addition to these traditional events, newer sports such as skateboarding, sport climbing, and surfing have been introduced to appeal to younger audiences and reflect modern trends.</p>
+        <h3>Winter Olympics</h3>
+        <p class="post-content-text-paragraph">The Winter Olympics focus on sports that are played on snow or ice. These events require specialized skills and often take place in challenging weather conditions. Popular Winter Olympic sports include:
+        <ul>
+            <li>Alpine skiing</li>
+            <li>Figure skating</li>
+            <li>Ice hockey</li>
+            <li>Snowboarding</li>
+            <li>Speed skating</li>
+            <li>Biathlon</li>
+            <li>Curling</li>
+        </ul>
+        </p>
+        <h2>Evolution of Olympic Sports</h2>
+        <p class="post-content-text-paragraph">The list of Olympic sports is not fixed; it evolves over time. The International Olympic Committee (IOC) regularly reviews which sports are included in the Games. Factors such as global popularity, youth engagement, cost, and gender equality influence these decisions.</p>
+        <p class="post-content-text-paragraph">Some sports have been removed from the Olympics over the years, while others have been added. For example, baseball and softball have had periods of inclusion and exclusion, while sports like karate and breakdancing have made more recent appearances.</p>
+        <h2>Individual vs. Team Sports</h2>
+        <p class="post-content-text-paragraph">Olympic sports can also be categorized as individual or team events.</p>
+        <p class="post-content-text-paragraph">Individual sports: Athletes compete on their own, relying solely on their personal performance. Examples include athletics, swimming, and gymnastics.</p>
+        <p class="post-content-text-paragraph">Team sports: Groups of players work together to achieve victory. Examples include basketball, football, and volleyball.</p>
+        <p class="post-content-text-paragraph">Both types of sports highlight different aspects of competition, from personal excellence to teamwork and strategy.</p>
+        <h2>Gender Equality and Inclusion</h2>
+        <p class="post-content-text-paragraph">Over the years, the Olympic Games have made significant progress toward gender equality. Today, nearly all sports include events for both men and women, and mixed-gender competitions are becoming more common.</p>
+        <p class="post-content-text-paragraph">The Olympics have also expanded to include athletes from diverse backgrounds and nations, reinforcing the idea that sport is a universal language.</p>
+        <h2>The Spirit of Competition</h2>
+        <p class="post-content-text-paragraph">At their core, Olympic sports are about more than winning medals. They represent dedication, discipline, and the pursuit of excellence. Athletes train for years to compete at the highest level, inspiring millions of people around the world.</p>
+        <p class="post-content-text-paragraph">Whether it’s the thrill of a 100-meter sprint, the precision of a gymnastics routine, or the intensity of a hockey match, Olympic sports continue to captivate audiences and celebrate the best of human potential.</p>
+    </section>
+    <hr>
+    <h3>Recent Games</h3>
+    <section id="recent-games-section">
+        <div class="recent-games-card">
+            <h3>🇮🇹 Milano Cortina 2026</h3>
+            <p>Italy hosted the Winter Olympics across iconic alpine venues.</p>
+        </div>
+        <div class="recent-games-card">
+            <h3>🇫🇷 Paris 2024</h3>
+            <p>A modern Summer Games blending tradition, innovation, and global unity.</p>
+        </div>
+        <div class="recent-games-card">
+            <h3>🇨🇳 Beijing 2022</h3>
+            <p>A groundbreaking Winter Olympics featuring advanced technology and venues.</p>
+        </div>
+    </section>
+</main>
+<footer>
+    <div id="footer-logo">
+        <img src="assets/olympic-hub-logo-02.png" alt="Logo">
+    </div>
+    <div></div>
+    <nav>
+        <a class="footer-link" href="about.html">About</a>
+        <a class="footer-link" href="contact.html">Contact</a>
+    </nav>
+    </div>
+</footer>
+<script>
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.main-navigation');
+
+    toggle.addEventListener('click', () => {
+        nav.classList.toggle('active');
+    });
+</script>
+</body>
+</html>

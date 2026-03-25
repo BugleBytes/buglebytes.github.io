@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<section class="top-brand-line">
+  <div id="brand-color-1"></div>
+  <div id="brand-color-2"></div>
+  <div id="brand-color-3"></div>
+  <div id="brand-color-4"></div>
+  <div id="brand-color-5"></div>
+</section>
+<header>
+  <div id="header-logo">
+    <a href="index.html">
+      <img src="assets/olympic-hub-logo-01.png" alt="Home">
+    </a>
+  </div>
+
+  <button class="menu-toggle">☰</button>
+
+  <nav class="main-navigation">
+    <a href="index.html">Home</a>
+    <a href="history.html">History</a>
+    <a href="sports.html">Sports</a>
+    <a href="host-cities.html">Host Cities</a>
+  </nav>
+</header>
+<main>
+  <img class="post-image" src="assets/post-image-03.webp" alt="Post image">
+  <section class="page-title-area">
+    <h1 class="post-title">History of the Olympic Games</h1>
+    <p class="page-meta">By Tobias Holm - March 19, 2026</p>
+  </section>
+  <hr>
+  <section class="post-content">
+    <p class="post-content-text-paragraph">The Olympic Games are one of the oldest and most celebrated sporting traditions in human history. Originating in ancient Greece, the Games have evolved over thousands of years into a global event that unites athletes and spectators from around the world.</p>
+    <h2>Ancient Origins</h2>
+    <p class="post-content-text-paragraph">The first recorded Olympic Games took place in 776 BCE in Olympia, a sacred site in ancient Greece. These early Games were held in honor of Zeus, the king of the Greek gods, and were part of a religious festival. Initially, the competition consisted of a single event—a footrace known as the stadion. Over time, more events were added, including wrestling, boxing, chariot racing, and the pentathlon.</p>
+    <p class="post-content-text-paragraph">The ancient Olympics were held every four years, a tradition that continues to this day. During the Games, a sacred truce was declared among Greek city-states, allowing athletes and spectators to travel safely to Olympia. The Games were exclusively for free Greek men, and women were not allowed to compete or even attend.</p>
+    <h2>Decline and Disappearance</h2>
+    <p class="post-content-text-paragraph">The ancient Olympic Games continued for nearly 12 centuries before declining under Roman rule. In 393 CE, the Roman Emperor Theodosius I banned all pagan festivals, including the Olympics, as part of efforts to promote Christianity. As a result, the Games disappeared for over 1,500 years.</p>
+    <h2>Revival of the Modern Olympics</h2>
+    <p class="post-content-text-paragraph">The Olympic Games were revived in the late 19th century, largely thanks to the efforts of French educator Pierre de Coubertin. Inspired by the ideals of ancient Greece and the educational value of sports, Coubertin worked to reestablish the Games on an international scale.</p>
+    <p class="post-content-text-paragraph">The first modern Olympic Games were held in Athens, Greece, in 1896. Athletes from 14 countries participated, competing in events such as athletics, cycling, swimming, and gymnastics. The success of these Games led to the establishment of the International Olympic Committee (IOC), which continues to oversee the Olympics today.</p>
+    <h2>Growth and Global Impact</h2>
+    <p class="post-content-text-paragraph">Since 1896, the Olympic Games have grown into a massive global event, featuring thousands of athletes from over 200 countries. The Games are held every four years, alternating between the Summer and Winter Olympics.</p>
+    <p class="post-content-text-paragraph">The Olympics have also played a significant role in global culture and politics. They have been a platform for promoting peace, showcasing national pride, and addressing social issues. Memorable moments—both triumphant and controversial—have shaped the history of the Games and reflected broader changes in society.</p>
+    <h2>The Olympics Today</h2>
+    <p class="post-content-text-paragraph">Today, the Olympic Games symbolize unity, excellence, and international cooperation. Athletes dedicate years of training for the chance to compete on the world stage, embodying the Olympic motto: Citius, Altius, Fortius—“Faster, Higher, Stronger.”</p>
+    <p class="post-content-text-paragraph">As the Games continue to evolve, they remain a powerful reminder of the enduring human spirit and the universal love of sport.</p>
+  </section>
+  <hr>
+  <h3>Recent Games</h3>
+  <section id="recent-games-section">
+    <div class="recent-games-card">
+      <h3>🇮🇹 Milano Cortina 2026</h3>
+      <p>Italy hosted the Winter Olympics across iconic alpine venues.</p>
+    </div>
+    <div class="recent-games-card">
+      <h3>🇫🇷 Paris 2024</h3>
+      <p>A modern Summer Games blending tradition, innovation, and global unity.</p>
+    </div>
+    <div class="recent-games-card">
+      <h3>🇨🇳 Beijing 2022</h3>
+      <p>A groundbreaking Winter Olympics featuring advanced technology and venues.</p>
+    </div>
+  </section>
+</main>
+<footer>
+  <div id="footer-logo">
+    <img src="assets/olympic-hub-logo-02.png" alt="Logo">
+  </div>
+  <div></div>
+  <nav>
+    <a class="footer-link" href="about.html">About</a>
+    <a class="footer-link" href="contact.html">Contact</a>
+  </nav>
+  </div>
+</footer>
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('.main-navigation');
+
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+</script>
+</body>
+</html>

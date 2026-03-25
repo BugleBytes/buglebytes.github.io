@@ -485,4 +485,9 @@ textarea.fs-input {
     .post-image {
         height: 250px;
     }
+
+    #footer-logo img{
+        width: 100px;
+        height: auto;
+    }
 }

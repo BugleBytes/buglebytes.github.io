@@ -16,22 +16,35 @@
     font-weight: 200;
 }
 
+:root {
+    --blue: #0078D0;
+    --green: #00A651;
+    --yellow: #FFB114;
+    --light-gray: #e6e6e6;
+    --bg: #f4f5f5;
+}
+
 body {
     font-family: Inter;
     font-size: 16px;
-    background-color: #f4f5f5;
+    background-color: var(--bg);
     margin: 0;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
-p{
+p {
     font-size: 1.2rem;
-    margin: 0;
+    margin-bottom: 16px;
     line-height: 1.6;
+}
+
+h1, h2, h3 {
+    margin-bottom: 12px;
 }
 
 li{
@@ -47,9 +60,8 @@ hr{
     border-color: #F6F6F6;
 }
 
-main{
-    padding-left: 50px;
-    padding-right: 50px;
+main {
+    padding: 40px 0;
 }
 
 #logo p{
@@ -68,13 +80,17 @@ main{
 }
 
 .card{
-    background-color: #e6e6e6;
+    background-color: var(--light-gray);
     border-radius: 20px;
     padding: 20px;
     flex: 1;
     display: flex;
     flex-direction: column;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
 
 .card-1:hover {
@@ -116,6 +132,7 @@ main{
 
 header {
     background-color: #F6F6F6;
+    border-bottom: 1px solid #ddd;
 }
 
 header .container {
@@ -128,6 +145,8 @@ header .container {
 footer {
     background-color: black;
     color: white;
+    padding: 30px 20px;
+    text-align: center;
 }
 
 footer .container {
@@ -141,6 +160,20 @@ footer .container {
     font-size: 1rem;
     color: white;
     margin-left: 40px;
+}
+
+nav a {
+    margin-left: 20px;
+    color: #333;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: var(--blue);
+}
+
+nav a.active {
+    border-bottom: 2px solid var(--blue);
 }
 
 .main-navigation{
@@ -378,6 +411,14 @@ textarea.fs-input {
     background: none;
     border: none;
     cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .highlighted-content-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
 }
 
 @media (max-width: 768px) {
